@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rra-mc-zin">
+                                <rect key="frame" x="10" y="383" width="192" height="343"/>
+                                <color key="backgroundColor" red="0.75843680440343819" green="1" blue="0.55862221861214456" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="431-oS-XgS">
+                                <rect key="frame" x="212" y="30" width="192" height="343"/>
+                                <color key="backgroundColor" red="1" green="0.31872999569999999" blue="0.41010907699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r4O-39-vc9">
+                                <rect key="frame" x="10" y="30" width="192" height="343"/>
+                                <color key="backgroundColor" red="0.32864056390265939" green="1" blue="0.46107401707610651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qum-OO-NE0">
+                                <rect key="frame" x="212" y="383" width="192" height="343"/>
+                                <color key="backgroundColor" red="0.95771942237019647" green="1" blue="0.083892721113059787" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="qum-OO-NE0" secondAttribute="trailing" constant="-10" id="7mt-fN-Kto"/>
+                            <constraint firstItem="r4O-39-vc9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="Fm0-yE-90x"/>
+                            <constraint firstItem="rra-mc-zin" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="I7n-n2-ifx"/>
+                            <constraint firstItem="qum-OO-NE0" firstAttribute="height" secondItem="r4O-39-vc9" secondAttribute="height" priority="999" id="J50-JK-lPT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rra-mc-zin" secondAttribute="bottom" constant="10" id="LDr-IC-ULb"/>
+                            <constraint firstItem="431-oS-XgS" firstAttribute="leading" secondItem="r4O-39-vc9" secondAttribute="trailing" constant="10" id="OaD-Zv-DZA"/>
+                            <constraint firstItem="431-oS-XgS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="Qul-a6-bJh"/>
+                            <constraint firstItem="qum-OO-NE0" firstAttribute="top" secondItem="431-oS-XgS" secondAttribute="bottom" constant="10" id="dGC-NX-YJb"/>
+                            <constraint firstItem="431-oS-XgS" firstAttribute="leading" secondItem="r4O-39-vc9" secondAttribute="trailing" constant="10" id="fUL-eJ-dMC"/>
+                            <constraint firstItem="rra-mc-zin" firstAttribute="height" secondItem="r4O-39-vc9" secondAttribute="height" priority="999" id="jMT-DJ-vam"/>
+                            <constraint firstItem="rra-mc-zin" firstAttribute="top" secondItem="r4O-39-vc9" secondAttribute="bottom" constant="10" id="lYY-fe-bcK"/>
+                            <constraint firstItem="431-oS-XgS" firstAttribute="width" secondItem="r4O-39-vc9" secondAttribute="width" priority="999" id="sPC-u4-7xE"/>
+                            <constraint firstItem="r4O-39-vc9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="vSp-Rj-GIW"/>
+                            <constraint firstItem="qum-OO-NE0" firstAttribute="leading" secondItem="rra-mc-zin" secondAttribute="trailing" constant="10" id="vdm-jO-ApW"/>
+                            <constraint firstItem="rra-mc-zin" firstAttribute="width" secondItem="r4O-39-vc9" secondAttribute="width" priority="999" id="xNN-Nq-A5H"/>
+                            <constraint firstItem="qum-OO-NE0" firstAttribute="width" secondItem="r4O-39-vc9" secondAttribute="width" priority="999" id="xbN-AH-vbi"/>
+                            <constraint firstItem="431-oS-XgS" firstAttribute="height" secondItem="r4O-39-vc9" secondAttribute="height" priority="999" id="xrX-PI-ecm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.710144927536234" y="138.58695652173915"/>
+        </scene>
+    </scenes>
+</document>
